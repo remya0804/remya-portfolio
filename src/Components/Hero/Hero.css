@@ -187,6 +187,8 @@
     .hero-contact{
 
         flex-direction: column;
+
+        gap:20px
     }
 
 

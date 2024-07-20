@@ -1,6 +1,6 @@
 .about{
 
-    margin: 0px 100px;
+    margin: 0px 50px;
 
     display: flex;
     flex-direction: column;
@@ -191,6 +191,25 @@
         gap:40px
 
     }
+
+    .about p{
+
+        font-size: 16px;
+    }
+
+    .about-sections-left button{
+
+        font-size: 16px;
+    }
+
+    .about-sections-right .skillset p {
+
+        font-size: 16px;
+    }
+
+
+
+    
 
  
     

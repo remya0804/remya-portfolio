@@ -24,7 +24,7 @@ const Navbar = () => {
     
     <div className="navbar">    
 
-      <HashLink className='ancchor' to='/#home' offset={50}>
+      <HashLink className='ancchor' to='/remya-portfolio/#home' offset={50}>
 
         <div className="navbar-logo"> REMYA     </div>
 
@@ -40,25 +40,25 @@ const Navbar = () => {
 
       <ul className={menu ? "side-menu" : "navbar-menu"} onClick={() => setMenu(false)}>
 
-        <HashLink className='ancchor' to='/#home'  >
+        <HashLink className='ancchor' to='/remya-portfolio/#home'  >
           
           <li className={activeMenu==='Home' ? 'active' : ""} onClick={() => setActiveMenu("Home")}>Home</li>
         
         </HashLink>
 
-        <HashLink className='ancchor' to='/#about' offset={50}>
+        <HashLink className='ancchor' to='/remya-portfolio/#about' offset={50}>
           
           <li className={activeMenu==='About' ? 'active' : ""} onClick={() => setActiveMenu("About")}>About</li>
           
         </HashLink>
 
-        <HashLink className='ancchor' to='/#projects' offset={50}>
+        <HashLink className='ancchor' to='/remya-portfolio/#projects' offset={50}>
           
           <li className={activeMenu==='Projects' ? 'active' : ""} onClick={() => setActiveMenu("Projects")}>Projects</li>
           
         </HashLink>
 
-        <HashLink className='ancchor' to='/#contact' offset={50}>
+        <HashLink className='ancchor' to='/remya-portfolio/#contact' offset={50}>
           
           <li className={activeMenu==='Contact' ? 'active' : ""} onClick={() => setActiveMenu("Contact")}>Contact</li>
           

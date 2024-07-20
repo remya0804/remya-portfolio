@@ -18,9 +18,9 @@ function App() {
 
         <Routes>      
 
-            <Route path='/'  element={<HomePage />} />
+            <Route path='/remya-portfolio'  element={<HomePage />} />
 
-            <Route path='/:projectNO/:projectName'  element={<ProjectPage />} />
+            <Route path='/remya-portfolio/:projectNO/:projectName'  element={<ProjectPage />} />
 
 
 

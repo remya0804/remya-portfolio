@@ -22,7 +22,7 @@ const Projects = () => {
 
                 projectList.map((p,idx) => {
 
-                    return <Link className='link'  to={`/${p.projectNO}/${p.projectName}`}  key={idx}>
+                    return <Link className='link'  to={`/remya-portfolio/${p.projectNO}/${p.projectName}`}  key={idx}>
                     
                            <div  className="project">
 

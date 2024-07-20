@@ -1,6 +1,9 @@
 import React from 'react'
 import './About.css'
 
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
+
 const About = () => {
   return (
 
@@ -26,7 +29,14 @@ const About = () => {
 
                     </div>
 
-                    <button>Contact Me</button>
+                    <AnchorLink className='ancchor' href='#contact' offset={50}>
+
+                        <button>Contact Me</button>
+
+
+                    </AnchorLink>
+
+                    
                 
 
             </div>
