@@ -1,0 +1,199 @@
+.hero{
+
+
+   margin: 0px 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap:25px;
+
+    color:white;
+
+
+
+
+    /* margin-top: 200px; */
+    /* margin-bottom: 100px; */
+}
+
+.offset{
+
+    width: 100%;
+    height: 1px;
+
+    position: absolute;
+
+    top:80px;
+}
+
+.hero h1{
+
+    width: 100%;
+
+    text-align: center;
+
+    font-size: 40px;
+    font-weight: 500;
+
+    background-image: linear-gradient( to right, #f00e95, #dd00a7, #c100bc, #9400d4, #3a12eb);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    animation:  FadeIn 4s;
+}
+
+
+
+@keyframes FadeIn {
+
+    0%{
+
+        opacity: 0;
+    }
+
+    100%{
+
+        opacity: 1;
+    }
+}
+
+.hero p{
+
+    width: 60%;
+    min-width: 300px;
+
+    text-align: center;
+
+    font-size: 18px;
+    line-height: 1.8;
+
+    /* line-height: 40px; */
+
+    animation:  FadeIn 4s;
+}
+
+.hero-contact{
+
+    display: flex;
+    align-items: center;
+
+    gap:40px;
+
+
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.hero-contact .contact{
+
+    width: 150px;
+
+    margin: 0;
+
+    padding: 15px 25px;
+
+    border-radius: 50px;
+    
+    background: white;
+    color: black;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.hero-contact .resume{
+
+    padding: 15px 40px;
+
+    border-radius: 50px;
+    border: 2px solid #c100bc;
+
+    transition: 0.3s;
+
+    cursor: pointer;
+
+
+    text-align: center;
+    width: 150px;
+
+
+}
+
+.hero-contact .contact:hover{
+
+    transform: scale(1.1);
+}
+
+.hero-contact .resume:hover{
+
+    transform: scale(1.1);
+}
+
+.hero hr{
+
+    width: 100%;
+
+    height: 1px;
+
+    border: none;
+
+    background: grey;
+
+    margin-top: 250px;
+    margin-bottom: 110px;
+    
+}
+
+
+@media (min-width:992px){
+
+   
+
+    .hero{
+
+        margin-top: 200px;
+    
+    }
+}
+
+@media (max-width:992px){
+
+    .hero{
+
+        margin-top: 200px;
+      
+    } 
+
+
+}
+
+@media (max-width:640px){
+
+    .hero h1{
+
+        font-size: 30px;
+    }
+
+    .hero p{
+
+        font-size: 14px;
+    }
+
+    .hero-contact{
+
+        flex-direction: column;
+    }
+
+
+    .hero-contact .resume, .hero-contact .contact{
+
+        font-size: 16px;
+        padding: 12px 18px;
+    }
+
+}

@@ -1,0 +1,99 @@
+.projectPage{
+
+    margin: 120px 100px;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* gap:20px; */
+
+}
+
+.projectPage h1{
+
+    font-size: 30px;
+    font-weight: 600;
+
+    background-image: linear-gradient( to right, #f00e95, #dd00a7, #c100bc, #9400d4, #3a12eb);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    margin-bottom: 15px;
+}
+
+.projectPage hr{
+
+    width: 100px;
+    height: 4px;
+
+    border: none;
+    background: white;
+
+    margin: 18px;
+    margin-top: 0;
+
+    margin-bottom: 40px;
+}
+
+.projectPage img{
+
+    min-width: 300px;
+
+
+    width: 60%;
+    height: 300px;
+}
+
+.projectPage p{
+
+    width: 80%;
+
+    min-width: 300px;
+
+    
+    line-height: 1.6;
+
+    margin-top: 35px;
+}
+
+.projectPage button{
+
+
+    padding: 15px 25px;
+
+    margin-top: 30px;
+
+    border-radius: 50px;
+
+    font-size: 18px;
+
+    background: none;
+    color: white;
+
+    border: 1px solid #c100bc;
+
+    transition: .3s;
+}
+
+.projectPage button:hover{
+
+    transform: scale(1.2);
+}
+
+@media (max-width:450px){
+
+    .projectPage h1{
+
+        font-size: 25px;
+    }
+
+    .projectPage button{
+
+        font-size: 16px;
+    }
+}
