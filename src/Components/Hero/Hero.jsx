@@ -26,7 +26,7 @@ const Hero = () => {
 
           <h1>HEY, I'M <span>REMYA</span></h1>
           
-          <p>A Result-Oriented Web Developer building and managing Websites and Web Applications that leads to the success of the overall product</p>
+          <p>A passionate front-end developer eager to contribute my skills in creating engaging and responsive web experiences</p>
 
           <div className="hero-contact">
 
