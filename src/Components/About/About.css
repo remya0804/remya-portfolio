@@ -9,9 +9,10 @@
 
     /* gap:80px; */
 
-    padding-top: 40px;
 
     color: white;
+
+    /* margin-top: 30px; */
 }
 
 .about h1{
@@ -61,12 +62,15 @@
 .about-sections-left h2{
 
     font-size: 22px;
-    font-weight: 300;
+    font-weight: 600;
 
     background-image: linear-gradient( to right, #f00e95, #dd00a7, #c100bc, #9400d4, #3a12eb);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    text-align: left;
+
 }
 
 .about-sections-left {
@@ -77,10 +81,7 @@
     gap:20px
 }
 
-.about-sections-left h2{
 
-    text-align: left;
-}
 
 .about-left-para{
 
@@ -138,7 +139,12 @@
 
 .about-sections-right h2{
 
-    color: white;
+    
+    background-image: linear-gradient( to right, #f00e95, #dd00a7, #c100bc, #9400d4, #3a12eb);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 
     font-size: 22px;
     font-weight: 600;
@@ -178,8 +184,18 @@
 
     background: grey;
 
-    margin-top: 200px;
+    margin-top: 80px;
 }
+
+@media (min-width:992px){
+    .about .hr{
+
+        margin-bottom: 80px;
+    }
+
+}
+
+
 
 @media (max-width:992px){
 
@@ -207,12 +223,6 @@
         font-size: 16px;
     }
 
-
-
-    
-
- 
-    
 
 
 }

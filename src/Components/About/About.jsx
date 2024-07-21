@@ -23,7 +23,7 @@ const About = () => {
 
                     <div className="about-left-para">
 
-                        <p>I'm a Frontend Focused Web Developer building and managing the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section.</p>
+                        <p>I'm a results-driven professional with experience in desktop publishing, now pursuing a career transition to leverage strong design fundamentals and newfound expertise in frontend development.  Eager to apply proficiency in HTML, CSS, JavaScript, React and responsive design to develop user-friendly interfaces.</p>
 
                         <p>I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.</p>
 

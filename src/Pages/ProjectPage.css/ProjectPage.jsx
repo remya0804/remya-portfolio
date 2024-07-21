@@ -22,7 +22,7 @@ const ProjectPage = () => {
 
       <p>{projectList[pnumber].projectDescription}</p>
 
-      <a href="https://remya0804.github.io/frontend-youtube-clone/" target='_blank'><button>Project Link</button></a>
+      <a href={projectList[pnumber].projectLink} target='_blank'><button>Project Link</button></a>
 
     </div>
   )
